@@ -1,74 +1,127 @@
 /* fraunces-900 - latin */
 @font-face {
-    font-family: 'Fraunces';
-    font-style: normal;
-    font-weight: 900;
-    src: local(''),
-         url('../fonts/fraunces-v24-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/fraunces-v24-latin-900.woff') format('woff'), /* Modern Browsers */
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url("../fonts/fraunces-v24-latin-900.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/fraunces-v24-latin-900.woff")
+      format("woff"); /* Modern Browsers */
 }
 
 /* barlow-regular - latin */
 @font-face {
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/barlow-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/barlow-v12-latin-regular.woff")
+      format("woff"); /* Modern Browsers */
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Fraunces", 'Times New Roman', Times, serif;
-    font-weight: 900;
+body {
+  font-family: "Fraunces", "Times New Roman", Times, serif;
+  font-weight: 900;
 }
 
 /********************** Header styles start **********************/
-.site-header{
-    background-color: #fefcf7;
-    padding-top: 44px;
-    padding-bottom: 45px;
+.site-header {
+  background-color: #fefcf7;
+  padding-top: 44px;
+  padding-bottom: 45px;
 }
 
-.container{
-    width: 1310px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+.container {
+  width: 1310px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.site-header__wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.site-header__logo-img{
-    width: 236px;
-    height: 26px;
+.site-header__logo-img {
+  width: 236px;
+  height: 26px;
 }
 
-.site-header__nav-list{
-    display: flex;
-    justify-content: space-between;
-    width: 283px;
-    list-style: none;
-    padding-left: 0;
+.site-header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 283px;
+  list-style: none;
+  padding-left: 0;
 }
 
-.site-header__nav-link{
-    font-family: 'Barlow';
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.923077px;
-    color: #83888F;    
-    text-decoration: none;
-
+.site-header__nav-link {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888f;
+  text-decoration: none;
 }
 /********************** Header styles end **********************/
+
+/********************** Main styles start **********************/
+.site-main {
+  background-color: #fefcf7;
+}
+
+/* Hero section start */
+.hero-section__wrapper {
+  background-image: url("../images/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0px 4px 4px #00000040;
+  border-radius: 10px;
+  padding-top: 117px;
+  padding-bottom: 116px;
+  padding-left: 85px;
+  margin-bottom: 136px;
+}
+
+.hero-section__title {
+  width: 493px;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.hero-section__desc {
+  width: 445px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+
+.hero-section__btn{
+    display: inline-block;
+    background-color: #0E8784;
+    border-radius: 6px;
+    padding-top: 15px;
+    padding-right: 31px;
+    padding-bottom: 16px;
+    padding-left: 31px;    
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;    
+    text-decoration: none;
+}
+/* Hero section end */
+/********************** Main styles end **********************/
