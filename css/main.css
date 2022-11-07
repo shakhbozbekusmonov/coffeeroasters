@@ -170,4 +170,97 @@ body {
     margin-top: 0;
 }
 /* Our Collection section end */
+
+/* Why Choose section start */
+.why-choose-section__wrapper{
+    background-color: #2C343E;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 317px;
+    position: relative;
+}
+
+.why-choose-section__title{
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.why-choose-section__desc{
+    width: 540px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF790;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.why-choose-section__list{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    padding-left: 0;
+    list-style: none;
+    position: absolute;
+    top: 346px;
+    right: 85px;
+    left: 85px;
+}
+
+.why-choose-section__item{
+    width: 350px;
+    background-color: #0E8784;
+    border-radius: 8px;
+    padding-top: 72px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    padding-left: 47px;
+}
+
+.why-choose__item-title{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fefcf7;
+}
+
+.why-choose__item-title::before{
+    display: block;
+    width: 71px;
+    height: 72px;
+    background-image: url("../images/coffee-seed.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 56px;
+    margin-left: 89px;
+    content: "";
+}
+
+.why-choose-section__item:nth-child(2) > .why-choose__item-title::before{
+    background-image: url("../images/benefits.png");
+}
+
+.why-choose-section__item:nth-child(3) > .why-choose__item-title::before{
+    background-image: url("../images/shipping.png");
+}
+
+.why-choose__item-desc{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Why Choose section end */
 /********************** Main styles end **********************/
