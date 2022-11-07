@@ -124,4 +124,50 @@ body {
     text-decoration: none;
 }
 /* Hero section end */
+
+
+/* Our Collection section start */
+.our-collection-section{
+    padding-bottom: 200px;
+}
+
+.our-collection__list{
+    display: flex;
+    width: 1111px;
+    background-image: url("../images/our-collection.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 64px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.our-collection__item:last-child{
+    padding-top: 15px;
+}
+
+.our-collection__img{
+    margin-bottom: 71px;
+}
+
+.our-collection__title{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+    margin-top: 0;
+}
+
+.our-collection__desc{
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+    margin-top: 0;
+}
+/* Our Collection section end */
 /********************** Main styles end **********************/
