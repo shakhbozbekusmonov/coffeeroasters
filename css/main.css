@@ -26,3 +26,49 @@ body{
     font-family: "Fraunces", 'Times New Roman', Times, serif;
     font-weight: 900;
 }
+
+/********************** Header styles start **********************/
+.site-header{
+    background-color: #fefcf7;
+    padding-top: 44px;
+    padding-bottom: 45px;
+}
+
+.container{
+    width: 1310px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__logo-img{
+    width: 236px;
+    height: 26px;
+}
+
+.site-header__nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 283px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.site-header__nav-link{
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;    
+    text-decoration: none;
+
+}
+/********************** Header styles end **********************/
