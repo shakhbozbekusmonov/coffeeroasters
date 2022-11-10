@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* fraunces-900 - latin */
 @font-face {
   font-family: "Fraunces";
@@ -19,7 +26,8 @@
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -43,9 +51,15 @@ body {
 }
 
 .site-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .site-header__logo-img {
@@ -54,8 +68,12 @@ body {
 }
 
 .site-header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 283px;
   list-style: none;
   padding-left: 0;
@@ -82,7 +100,8 @@ body {
   background-image: url("../images/hero-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  box-shadow: 0px 4px 4px #00000040;
+  -webkit-box-shadow: 0px 4px 4px #00000040;
+          box-shadow: 0px 4px 4px #00000040;
   border-radius: 10px;
   padding-top: 117px;
   padding-bottom: 116px;
@@ -132,6 +151,8 @@ body {
 }
 
 .our-collection__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 1111px;
     background-image: url("../images/our-collection.png");
@@ -204,8 +225,12 @@ body {
 }
 
 .why-choose-section__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 1110px;
     padding-left: 0;
     list-style: none;
