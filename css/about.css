@@ -1,0 +1,39 @@
+/****************** Main styles start ******************/
+.site-main{
+    background-color: #fefcf7;
+}
+
+/* Hero about section start */
+.hero-section__about{
+    margin-bottom: 168px;
+}
+
+.hero-section__about-wrapper{
+    padding: 137px 85px;
+    background-image: url("../images/about-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.hero-section__about-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+}
+
+.hero-section__about-desc{
+    width: 445px;
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+}
+/* Hero about section end */
+/****************** Main styles end ******************/
