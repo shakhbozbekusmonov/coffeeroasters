@@ -36,4 +36,90 @@
     color: #fefcf7;
 }
 /* Hero about section end */
+
+/* Commit section start */
+.commit-section{
+    margin-bottom: 256px;
+}
+
+.commit-section__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 85px;
+}
+
+.commit-section__img{
+    width: 445px;
+    height: 520px;
+    border-radius: 8px;
+}
+
+.commit-section__content{
+    width: 540px;
+}
+
+.commit-section__title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commit-section__desc{
+    margin-top: 0;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    opacity: 0.8;
+}
+/* Commit section end */
+
+/* Quality section start */
+.quality-section{
+    margin-bottom: 168px;
+}
+
+.quality-section__wrapper{
+    position: relative;
+    padding-top: 88px;
+    padding-bottom: 176px;
+    padding-left: 85px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.quality-section__title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality-section__desc{
+    margin: 0;
+    width: 540px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.qulity-section__img{
+    position: absolute;
+    right: 7%;
+    bottom: 130px;
+    width: 445px;
+    height: 474px;
+    border-radius: 8px;
+}
+/* Quality section end */
 /****************** Main styles end ******************/
