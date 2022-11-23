@@ -125,7 +125,7 @@
 
 /* Location section start */
 .location-section{
-    
+    padding-bottom: 168px;
 }
 
 .location-section__wrapper{
@@ -191,3 +191,63 @@
 
 /* Location section end */
 /****************** Main styles end ******************/
+
+/****************** Footer styles start ******************/
+.site-footer{
+    padding-bottom: 88px;
+    background-color: #fefcf7;
+}
+
+.site-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 47px;
+    padding-right: 85px;
+    padding-bottom: 48px;
+    padding-left: 85px;
+    background-color: #2C343E;
+}
+
+.site-footer__start{
+    display: flex;
+    align-items: center;
+}
+
+.site-footer__logo{
+    color: #fff;
+    margin-right: 103px;
+}
+
+.site-footer__list{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.site-footer__link{
+    margin-right: 33px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+    text-decoration: none;
+}
+
+.site-footer__social-lists{
+    display: flex;
+    padding-left: ;
+    list-style: none;
+}
+
+.site-footer__social-item{
+    margin-right: 24px;
+}
+
+.site-footer__social-item:last-child{
+    margin-right: 0;
+}
+/****************** Footer styles end ******************/
