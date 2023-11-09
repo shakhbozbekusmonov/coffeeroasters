@@ -94,7 +94,7 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1230px;
+  max-width: 1310px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -108,3 +108,121 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+
+/* HEADER STYLES START */
+.site-header {
+  padding: 32px 0;
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__logo-img {
+  width: 163px;
+  height: 18px;
+}
+
+.site-header__nav {
+  display: block;
+}
+
+.site-header__nav-list {
+  display: flex;
+  gap: 33px;
+}
+
+.site-header__nav-link {
+  color: var(--colorSecondary);
+  font-family: "Barlow";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+}
+
+.site-header__nav-link:active {
+  color: var(--colorPrimary);
+}
+
+.site-header__menu-btn {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+/* HIDDE HEADER START */
+.hidden-header {
+  position: fixed;
+  top: 80px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.5) 0%,
+    #fefcf7 55.94%
+  );
+  transform: translateY(-150%);
+  transition: all 0.5s ease;
+}
+
+.hidden-header.show-header {
+  transform: translateY(0);
+}
+
+.hidden-header__nav-list {
+  text-align: center;
+}
+
+.hidden-header__nav-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.hidden-header__nav-link {
+  color: var(--colorPrimary);
+  font-size: 24px;
+  line-height: 32px;
+}
+/* HIDDE HEADER END*/
+
+/* MEDIA START */
+@media only screen and (max-width: 767px) {
+  .site-header__nav {
+    display: none;
+  }
+
+  .site-header__menu-btn {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .site-header {
+    padding: 40px 0;
+  }
+
+  .site-header__logo-img {
+    width: 236px;
+    height: 26px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .site-header {
+    padding: 44px 0;
+  }
+
+  .site-header__logo-img {
+    width: 236px;
+    height: 26px;
+  }
+}
+/* MEDIA END */
+/* HEADER STYLES END */
