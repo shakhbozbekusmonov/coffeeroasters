@@ -101,3 +101,127 @@
 }
 /* MEDIA END */
 /* HERO STYLES END */
+
+/* OUR COLLECTION START */
+.our-collection {
+  height: 100%;
+  max-height: 850px;
+  position: relative;
+  padding-top: 136px;
+  padding-bottom: 200px;
+}
+
+.our-collection__title {
+  color: #83888f;
+  text-align: center;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 72px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0) 0%, #fefcf7 100%);
+  opacity: 0.5032;
+}
+
+.our-collection__coffee-list {
+  position: absolute;
+  top: 262px;
+  left: 165px;
+  right: 165px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-collection__coffee-item {
+  width: 100%;
+  max-width: 255px;
+}
+
+.our-collection__coffee-img {
+  margin-bottom: 71px;
+}
+
+.our-collection__coffee-title {
+  color: #333d4b;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.our-collection__coffee-desc {
+  color: #333d4b;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* MEDIA START */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .our-collection {
+    padding-top: 200px;
+    padding-bottom: 130px;
+  }
+
+  .our-collection__title {
+    font-size: 96px;
+  }
+
+  .our-collection__coffee-list {
+    flex-direction: column;
+  }
+
+  .our-collection__coffee-item {
+    max-width: 100%;
+    display: flex;
+  }
+
+  .our-collection__coffee-title,
+  .our-collection__coffee-desc {
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .our-collection {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .our-collection__title {
+    font-size: 40px;
+  }
+
+  .our-collection__coffee-list {
+    top: 205px;
+    left: 47px;
+    right: 47px;
+  }
+
+  .our-collection__coffee-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .our-collection__coffee-content {
+    width: 100%;
+  }
+
+  .our-collection__coffee-img {
+    margin-bottom: 24px;
+  }
+
+  .our-collection__coffee-title {
+    margin-bottom: 16px;
+  }
+}
+/* MEDIA END */
+/* OUR COLLECTION END */
